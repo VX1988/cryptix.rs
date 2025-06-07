@@ -1,0 +1,20 @@
+[package]
+name = "cryptix_1988"
+version = "0.6.0"
+edition = "2024"
+authors = ["VX1988 1988@vx-engineering.org"]
+description = "Cryptix: Compile-Time String Encryption & Obfuscation Framework for Rust"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/VX1988/cryptix.rs"
+keywords = ["encryption", "compile-time", "proc-macro", "obfuscation"]
+categories = ["cryptography"]
+readme = "README.md"
+
+[dependencies]
+aes = "0.8.4"
+block-padding = "0.3.3"
+hex = "0.4.3"
+base64 = "0.22.1"
+libaes = "0.6.1"
+cbc = "0.1.2"
+cipher = "0.4.4"

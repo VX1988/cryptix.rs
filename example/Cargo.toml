@@ -1,0 +1,8 @@
+[package]
+name = "example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cryptix_macros = "0.1.0"
+cryptix_1988 = "0.4.0"

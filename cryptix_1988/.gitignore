@@ -1,0 +1,9 @@
+# === Rust build artifacts ===
+target/
+/target
+/target/
+/**/target/
+
+# === IDEs and editors ===
+.vscode/
+/*.code-workspace
